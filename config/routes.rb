@@ -18,7 +18,6 @@ Rails.application.routes.draw do
     get  '/tweets/search/:keyword' => 'tweets#search'
   end
 
- 
   get 'tweets' => 'static_pages#index'
   get 'tweets/search=*uri' => 'static_pages#index'
   get 'tweets/*uri' => 'static_pages#index'
