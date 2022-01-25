@@ -59,7 +59,7 @@ class Feeds extends React.Component {
         }))
             .then(handleErrors)
             .then(response => {
-                // console.log(response)
+                // console.log(response);
             })
             .then(() => {
                 const button = document.getElementById('btn-tweet-create');
