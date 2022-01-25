@@ -100,9 +100,6 @@ class Feeds extends React.Component {
             .then(() => {
                 this.updateTweets();
             })
-        // setTimeout(() => {
-        // this.updateTweets();
-        // }, 100);
 
     }
 
