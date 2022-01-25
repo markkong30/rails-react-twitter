@@ -23,3 +23,4 @@ test:
 production:
   <<: *default
   database: fs_twitter_clone
+  adapter: postgresql
