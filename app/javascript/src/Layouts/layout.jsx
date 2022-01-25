@@ -24,7 +24,7 @@ class Layout extends React.Component {
         const userTweetCount = response.tweets.length;
         this.setState({ userTweetCount });
       })  
-    })
+    }, 100)
   }
 
   logOutHandler = (event) => {

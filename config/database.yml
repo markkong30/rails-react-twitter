@@ -21,6 +21,5 @@ test:
   database: db/test.sqlite3
 
 production:
-  # <<: *default
+  <<: *default
   database: fs_twitter_clone
-  adapter: postgresql
