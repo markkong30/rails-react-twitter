@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap'
-import 'bootstrap/dist/js/bootstrap.bundle.min'
+import 'bootstrap'
 import Home from './home';
 import Tweets from './tweets';
 import User from './user';
