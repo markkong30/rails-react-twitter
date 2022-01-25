@@ -72,6 +72,5 @@ end
 group :production do
   # Use pg as the database for Active Record
   gem 'pg', '~> 1.2.3'
-  gem 'sqlite3', '~> 1.4.2'
 
 end
