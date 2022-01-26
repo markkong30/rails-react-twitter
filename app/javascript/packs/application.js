@@ -21,4 +21,4 @@ console.log('Hello World from Webpacker')
 // import 'bootstrap/dist/js/bootstrap.bundle';
 
 // import bootstrap from 'bootstrap'
-import "@fortawesome/fontawesome-free/css/all"
+// import "@fortawesome/fontawesome-free/css/all"
