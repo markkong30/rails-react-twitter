@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import $ from 'jquery';
 // import Popper from 'popper.js';
 // import '@popperjs/core';
+
 // import 'bootstrap/dist/css/bootstrap';
 // import 'bootstrap/js/dist/dropdown';
 import Home from './home';
